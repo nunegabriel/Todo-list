@@ -1,6 +1,6 @@
-# Webpack-boilerplate
+# SIMPLE TODO LIST
 
-> This is a project was created to demonstrate how webpack can be setup in a project
+> This is a project todo app.
 
 ## Built With
 
@@ -20,11 +20,11 @@ To get the content of this project locally you need to run the following command
 ### Setup
 1. Download the **Zip** file or clone the repo with:
 ```bash
-git clone https://github.com/nunegabriel/webpack-demo.git
+git clone https://github.com/nunegabriel/Todo-list.git
 ```
 3. To access cloned directory run:
 ```bash
-cd webpack-demo
+cd To-Do-List
 ```
 3. Open it with the live server
 
