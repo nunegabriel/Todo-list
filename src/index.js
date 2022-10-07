@@ -6,11 +6,7 @@ const todoList = [{
   bool: 'false',
   index: '1',
 },
-{
-  description: 'Lorem met',
-  bool: 'false',
-  index: '1',
-},
+
 {
   description: 'Lorem met',
   bool: 'false',
@@ -26,30 +22,8 @@ const displayTodo = () => {
 <img class = "icon" src="${refreshIcon}" alt="reload">;
 
 </div>`;
-  const mainArea = document.querySelector('.main-area');
-
-  mainArea.innerHTML = `<div>
-<input type="text" id="add-book" value="" placeholder="Add to your todo list...">
-</div>
-<div class="add">
-+
-</div>`;
-
-  const todoContainer = document.querySelector('.list');
-
-  todoList.forEach((task) => {
-    const taskList = document.createElement('div');
-    taskList.className = 'task';
-    taskList.id = 'task';
-    taskList.innerHTML = `<input type="checkbox" class="check">
-  <div class="items">
-  ${task.description}
-</div>
-<div class="dash">
-  -
-</div> `;
-    todoContainer.appendChild(taskList);
-  });
+     todoContainer.appendChild(taskList);
+ 
 };
 
 displayTodo();
