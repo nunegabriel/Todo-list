@@ -22,6 +22,16 @@ const displayTodo = () => {
 <img class = "icon" src="${refreshIcon}" alt="reload">;
 
 </div>`;
+
+  const mainArea = document.querySelector('.main-area');
+
+  mainArea.innerHTML = `<div>
+<input type="text" id="add-book" value="" placeholder="Add to your todo list...">
+</div>
+<div class="add">
++
+</div>`;
+
      todoContainer.appendChild(taskList);
  
 };
