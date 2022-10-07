@@ -6,11 +6,7 @@ const todoList = [{
   bool: 'false',
   index: '1',
 },
-{
-  description: 'Lorem met',
-  bool: 'false',
-  index: '1',
-},
+
 {
   description: 'Lorem met',
   bool: 'false',
@@ -26,6 +22,7 @@ const displayTodo = () => {
 <img class = "icon" src="${refreshIcon}" alt="reload">;
 
 </div>`;
+
   const mainArea = document.querySelector('.main-area');
 
   mainArea.innerHTML = `<div>
@@ -35,6 +32,7 @@ const displayTodo = () => {
 +
 </div>`;
 
+     todoContainer.appendChild(taskList);
  
 };
 
