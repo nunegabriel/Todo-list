@@ -60,6 +60,14 @@ input {
   font-weight: bold;
 }
 
+.add-1 {
+    display: flex;
+    margin: 0 70px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
 .list {
   display: flex;
   align-items: center;
