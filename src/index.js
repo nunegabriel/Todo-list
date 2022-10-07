@@ -35,21 +35,7 @@ const displayTodo = () => {
 +
 </div>`;
 
-  const todoContainer = document.querySelector('.list');
-
-  todoList.forEach((task) => {
-    const taskList = document.createElement('div');
-    taskList.className = 'task';
-    taskList.id = 'task';
-    taskList.innerHTML = `<input type="checkbox" class="check">
-  <div class="items">
-  ${task.description}
-</div>
-<div class="dash">
-  -
-</div> `;
-    todoContainer.appendChild(taskList);
-  });
+ 
 };
 
 displayTodo();
